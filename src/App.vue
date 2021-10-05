@@ -1,10 +1,16 @@
 <template>
+  <!--<img src="assets/logo.png" alt="">-->
+  <h1>Menu</h1>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/">Inicio</router-link> |
+    <router-link to="/about">Acerca de</router-link>
   </div>
   <router-view/>
 </template>
+
+<script>
+
+</script>
 
 <style>
 #app {
@@ -12,7 +18,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #3f3f2b;
+  background-color: #f1efe1;
 }
 
 #nav {
